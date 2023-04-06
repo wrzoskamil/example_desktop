@@ -9,3 +9,4 @@ obwod = a + b + c
 pole = int((h * a) / 2)
 
 print("Obwod trojkata wynosi " + str(obwod) + ", zas pole wynosi " + str(pole) + ".")
+
