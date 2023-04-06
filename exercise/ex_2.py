@@ -25,3 +25,12 @@ obwod = 2 * math.pi * r
 pole = math.pi * r^2
 
 print ("Obwod koła wynosi " + obwod + ", a pole " + pole ".")
+
+#trapez
+a = 6
+b = 8
+c = 3
+h = 5
+obwod = 2*c + a + b
+pole = (a+b)/2 * h
+print ("Obwod trapezu wynosi " + obwod + ", a pole " + pole ".")
