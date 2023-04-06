@@ -34,3 +34,11 @@ h = 5
 obwod = 2*c + a + b
 pole = (a+b)/2 * h
 print ("Obwod trapezu wynosi " + obwod + ", a pole " + pole ".")
+
+#romb
+a=5
+d1 = 10
+d2 = 7
+obwod = 4*a
+pole = d1 * d2 * 1/2
+print ("Obwod rombu wynosi " + obwod + ", a pole " + pole ".")
