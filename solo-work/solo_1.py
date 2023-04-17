@@ -13,3 +13,9 @@ print(komunikat)
 studenci = ["Ania", "Kuba", "Piotr", "Jan"]
 liczba_studentow = len(studenci)
 print("Liczba studentów wynosi: ", liczba_studentow)
+
+#zadanie 1.4
+studenci = ["Ania", "Kuba", "Piotr", "Jan"]
+
+for student in studenci:
+    print("Hello", student)
