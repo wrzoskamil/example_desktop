@@ -8,3 +8,8 @@ print(wynik)
 student = input("Podaj imię: ")
 komunikat = "Hello, {}!".format(student)
 print(komunikat)
+
+#zadanie 1.3
+studenci = ["Ania", "Kuba", "Piotr", "Jan"]
+liczba_studentow = len(studenci)
+print("Liczba studentów wynosi: ", liczba_studentow)
