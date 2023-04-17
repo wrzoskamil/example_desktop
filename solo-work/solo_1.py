@@ -43,3 +43,11 @@ studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny
 studenci.sort(key=lambda x: x.split()[0])
 
 print("Alfabetyczna lista studentow wynosi: ", studenci)
+
+#zadanie 1.8
+
+studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny"]
+
+studenci.sort(key=lambda x: x.split()[-1])
+
+print("Alfabetyczna lista studentow wynosi: ", studenci)
